@@ -1,0 +1,15 @@
+numpy
+matplotlib
+seaborn
+scipy
+scikit-learn
+
+
+ipykernal
+ipywidgets
+plotly
+
+psycopg2-binary
+
+python-dotenv
+
