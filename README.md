@@ -2,6 +2,9 @@
 
 This project focuses on exploring, analyzing, and interpreting telecommunication data to provide insights into user behavior, engagement, experience, and satisfaction. It includes multiple tasks related to exploratory data analysis (EDA), user segmentation, engagement analysis, experience analytics, and satisfaction prediction using machine learning techniques.
 
+![Streamlit Image](assets/images/streamlit/user-experience.png)
+
+
 ## Project Structure
 
 ```
@@ -32,8 +35,14 @@ This project focuses on exploring, analyzing, and interpreting telecommunication
 ├── scripts/
 │   ├── __init__.py
 │   └── README.md
-└── assets/
-    └── images/
+├── assets/
+│   └── images/
+│   └── streamlit/
+└── app/
+    ├── utils.py
+    ├── app.py
+    ├── __init__.py
+
 
 ```
 
@@ -48,15 +57,19 @@ This project focuses on exploring, analyzing, and interpreting telecommunication
 2. Create a virtual environment and install dependencies:
    ```bash
    python -m venv venv
-   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+   source venv/bin/activate  # On Windows, use `venv/Scripts/activate`
    pip install -r requirements.txt
    ```
 
-## Running the Scripts
+## Running the Streamlit
 
-Scripts can be run directly from the terminal:
+Navigate to the app folder:
 ```bash
-python src/scripts/<script_name>.py
+cd path/to/app
+```
+Run the Streamlit app:
+```bash
+streamlit run app.py
 ```
 
 ## Contribution
