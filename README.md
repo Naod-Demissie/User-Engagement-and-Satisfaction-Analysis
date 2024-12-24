@@ -24,7 +24,8 @@ This project focuses on exploring, analyzing, and interpreting telecommunication
 │   ├── README.md
 │   ├── 0.0-dataset-overview.ipynb
 │   ├── 1.0-user-overview-analysis.ipynb
-│   └── 2.0-user-engagement-analysis.ipynb
+│   ├── 2.0-user-engagement-analysis.ipynb
+│   └── 3.0-user-experience-analysis.ipynb
 ├── tests/
 │   ├── __init__.py
 └── scripts/
