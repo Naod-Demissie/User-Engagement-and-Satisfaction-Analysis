@@ -25,12 +25,16 @@ This project focuses on exploring, analyzing, and interpreting telecommunication
 │   ├── 0.0-dataset-overview.ipynb
 │   ├── 1.0-user-overview-analysis.ipynb
 │   ├── 2.0-user-engagement-analysis.ipynb
-│   └── 3.0-user-experience-analysis.ipynb
+│   ├── 3.0-user-experience-analysis.ipynb
+│   └── 4.0-user-satisfaction-analysis.ipynb
 ├── tests/
 │   ├── __init__.py
-└── scripts/
-    ├── __init__.py
-    └── README.md
+├── scripts/
+│   ├── __init__.py
+│   └── README.md
+└── assets/
+    └── images/
+
 ```
 
 ## Installation
